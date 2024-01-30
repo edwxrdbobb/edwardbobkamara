@@ -1,8 +1,11 @@
 const withPWA = require("next-pwa");
 
 const isProd = process.env.NODE_ENV === "production";
+const basePath = isProd ? '/your-repository-name' : '';
 
 const nextConfig = {
+  basePath,
+  assetPrefix: basePath,
   pwa: {
     dest: "public",
     register: true,
@@ -10,9 +13,9 @@ const nextConfig = {
     disable: !isProd,
   },
   images: {
-    // Disable Image Optimization during export
-    disableStaticImages: true,
-    unoptimized: true
+    // Enable Image Optimization
+    disableStaticImages: false,
+    unoptimized: false,
   },
 };
 
