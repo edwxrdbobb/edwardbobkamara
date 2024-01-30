@@ -49,8 +49,8 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
         />
         <Image
           placeholder="blur"
-          blurDataURL={blurImage}
-          src={image}
+          blurDataURL={`.${blurImage}`}  
+          src={`.${image}`} 
           alt={name}
           layout="fill"
           className={`${styles.projectImage} z-0`}
