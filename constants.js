@@ -108,14 +108,7 @@ export const SOCIAL_LINKS = [
     name: "github",
     url: "https://github.com/shubh73",
   },
-  {
-    name: "instagram",
-    url: "https://www.instagram.com/shubhii73/",
-  },
-  {
-    name: "twitter",
-    url: "https://twitter.com/shubh731",
-  },
+  
 ];
 
 export const NICHE = [
