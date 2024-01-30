@@ -9,12 +9,7 @@ const Header = ({ children }) => {
       <Fade>
         <div className="flex justify-between section-container">
           <a href="#home" className="link">
-            <Image
-              src="/logo.svg"
-              alt="Logo - Edward Bob"
-              width={25}
-              height={25}
-            />
+           <span style="font-weight:bold;">EBK</span>
           </a>
           <div className="outer-menu relative">
             <SoundBar />
