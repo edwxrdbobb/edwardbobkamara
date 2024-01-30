@@ -43,7 +43,7 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
         }}
       >
         <img
-          src="/project-bg.svg"
+          src="./project-bg.svg"
           alt="project"
           className="absolute w-full h-full top-0 left-0 object-cover opacity-30"
         />
