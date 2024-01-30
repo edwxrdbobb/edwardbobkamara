@@ -3,7 +3,7 @@ export const METADATA = {
   title: "Portfolio | Edward Bob Kamara",
   description:
     "👋 Hello, I'm Edward Bob Kamara, a Creative / Full Stack Developer from London.",
-  siteUrl: "https://www.edwardbob.me/",
+  siteUrl: "https://edwxrdbobb.github.io/edwardbobkamara/",
   twitterHandle: "@edwardbobb",
   keywords: [
     "Edward Bob Kamara",
