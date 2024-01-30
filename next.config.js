@@ -1,7 +1,7 @@
 const withPWA = require("next-pwa");
 
 const isProd = process.env.NODE_ENV === "production";
-const basePath = isProd ? '/your-repository-name' : '';
+const basePath = isProd ? '/edwardbobkamara' : '';
 
 const nextConfig = {
   basePath,
