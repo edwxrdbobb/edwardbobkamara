@@ -9,6 +9,10 @@ const nextConfig = {
     skipWaiting: true,
     disable: !isProd,
   },
+  images: {
+    // Disable Image Optimization during export
+    disableStaticImages: true,
+  },
 };
 
 module.exports = withPWA({
