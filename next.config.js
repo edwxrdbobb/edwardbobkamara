@@ -14,8 +14,8 @@ const nextConfig = {
   },
   images: {
     // Enable Image Optimization
-    disableStaticImages: false,
-    unoptimized: false,
+    disableStaticImages: true,
+    unoptimized: true,
   },
 };
 
