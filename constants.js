@@ -102,11 +102,11 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/shubhporwal/",
+    url: "https://www.linkedin.com/in/edward-bob-kamara-bb28a116b/",
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
+    url: "https://github.com/edward-bee?tab=repositories",
   },
   
 ];
