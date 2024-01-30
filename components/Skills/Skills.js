@@ -33,7 +33,7 @@ const Skills = () => {
     >
       <div className="section-container py-16 flex flex-col justify-center">
         <img
-          src="/right-pattern.svg"
+          src="./right-pattern.svg"
           alt=""
           className="absolute hidden right-0 bottom-2/4 w-2/12 max-w-xs md:block"
           loading="lazy"
@@ -63,7 +63,7 @@ const Skills = () => {
                            <div className="button-text mx-auto flex h-14 w-14 items-center justify-center rounded-md border bg-white">
                                   <Image
                                     key={skill.name}
-                                    src={`/skills/${skill.url}`}
+                                    src={`./skills/${skill.url}`}
                                     alt={skill.name}
                                     width={50}
                                     height={50}
@@ -88,7 +88,7 @@ const Skills = () => {
                            <div className="button-text mx-auto flex h-14 w-14 items-center justify-center rounded-md border bg-white">
                                   <Image
                                     key={skill.name}
-                                    src={`/skills/${skill.url}`}
+                                    src={`./skills/${skill.url}`}
                                     alt={skill.name}
                                     width={50}
                                     height={50}
@@ -115,7 +115,7 @@ const Skills = () => {
                            <div className="button-text mx-auto flex h-14 w-14 items-center justify-center rounded-md border bg-white">
                                   <Image
                                     key={skill.name}
-                                    src={`/skills/${skill.url}`}
+                                    src={`./skills/${skill.url}`}
                                     alt={skill.name}
                                     width={50}
                                     height={50}
@@ -140,7 +140,7 @@ const Skills = () => {
                            <div className="button-text mx-auto flex h-14 w-14 items-center justify-center rounded-md border bg-white">
                                   <Image
                                     key={skill.name}
-                                    src={`/skills/${skill.url}`}
+                                    src={`./skills/${skill.url}`}
                                     alt={skill.name}
                                     width={50}
                                     height={50}
