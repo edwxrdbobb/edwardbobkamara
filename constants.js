@@ -196,8 +196,8 @@ export const PROJECTS = [
 
   {
     name: "Leone Gadgets",
-    image: "/projects/Leone-Gadgets.png",
-    blurImage: "/projects/blur/Leone-Gadgets.jpg",
+    image: "./projects/Leone-Gadgets.png",
+    blurImage: "./projects/blur/Leone-Gadgets.jpg",
     description: "Client Ecommerce website",
     gradient: ["#0133e8", "#0029b3"],
     url: "https://leonegadgets.com/",
@@ -205,8 +205,8 @@ export const PROJECTS = [
   },
   {
     name: "Kizuri International",
-    image: "/projects/Kizuri-International.png",
-    blurImage: "/projects/blur/Kizuri-International.jpg",
+    image: "./projects/Kizuri-International.png",
+    blurImage: "./projects/blur/Kizuri-International.jpg",
     description: "Consultancy Website for a client",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "http://kizuri-international.com/",
@@ -214,8 +214,8 @@ export const PROJECTS = [
   },
   {
     name: "Centurion Engineering",
-    image: "/projects/Centurion-Engineering.png",
-    blurImage: "/projects/blur/Centurion-Engineering.jpg",
+    image: "./projects/Centurion-Engineering.png",
+    blurImage: "./projects/blur/Centurion-Engineering.jpg",
     description:
       "Engineering & Construction website for client",
     gradient: ["#F14658", "#DC2537"],
@@ -224,8 +224,8 @@ export const PROJECTS = [
   },
   {
     name: "Sophie Ndong",
-    image: "/projects/Sophie-Ndong.png",
-    blurImage: "/projects/blur/Sophie-Ndong.jpg",
+    image: "./projects/Sophie-Ndong.png",
+    blurImage: "./projects/blur/Sophie-Ndong.jpg",
     description: "Portfolio website for a gospel artist",
     gradient: ["#142D46", "#2E4964"],
     url: "https://sophiendong.org/",
@@ -233,8 +233,8 @@ export const PROJECTS = [
   },
     {
     name: " BBoxx SL Ltd",
-    image: "/projects/BBoxx.png",
-    blurImage: "/projects/blur/BBoxx.jpg",
+    image: "./projects/BBoxx.png",
+    blurImage: "./projects/blur/BBoxx.jpg",
     description:
       "Solar company in Africa",
     gradient: ["#FFCF1B", "#FF881B"],
