@@ -2,7 +2,7 @@ export const METADATA = {
   author: "Edward Bob Kamara",
   title: "Portfolio | Edward Bob Kamara",
   description:
-    "👋 Hello, I'm Edward Bob Kamara, a Creative / Full Stack Developer from London.",
+    "👋 Hello, I'm Edward Bob Kamara, a Creative / Full Stack Developer from Freetown.",
   siteUrl: "https://edwxrdbobb.github.io/edwardbobkamara/",
   twitterHandle: "@edwardbobb",
   keywords: [

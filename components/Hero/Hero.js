@@ -106,8 +106,9 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className="absolute w-8/12 lg:w-4/12 bottom-1.5 lg:right-12 2xl:right-16"
+        className="absolute invisible lg:visible w-8/12 lg:w-4/12 lg:bottom-1.5 md:bottom-12 lg:right-12 2xl:right-16"
         ref={lottieRef}
+        // style={{bottom: '-12.5rem'}}
       ></div>
     </section>
   );

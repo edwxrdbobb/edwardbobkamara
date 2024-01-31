@@ -96,7 +96,7 @@ const Projects = ({ isDesktop, clientHeight }) => {
             PROJECTS
           </p>
           <PersonalProjects projects={PERSONAL_PROJECTS} />
-          <h1 className="text-6xl mt-2 font-medium text-gradient w-fit seq">
+          <h1 className="text-6xl sm:text-2xl mt-4 font-medium text-gradient w-fit seq sm:mt-4">
             Client Projects
           </h1>
           <h2 className="text-[1.65rem] font-medium md:max-w-lg max-w-sm mt-2 seq">

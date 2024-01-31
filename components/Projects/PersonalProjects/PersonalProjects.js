@@ -4,7 +4,7 @@ const PersonalProjects = ({ projects }) => {
   return (
     <div className="">
       <section id="features" className="relative block px-6 py-10 md:py-20 md:px-10">
-      <h1 className="text-6xl mt-2 font-medium text-gradient w-fit seq">
+      <h1 className="text-6xl sm:text-2xl mt-2 font-medium text-gradient w-fit seq">
             Personal Projects
           </h1>
         <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
