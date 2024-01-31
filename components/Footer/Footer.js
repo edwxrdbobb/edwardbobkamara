@@ -13,7 +13,7 @@ const Footer = () => {
   const targetSection = useRef(null);
 
   const heartClickSound = new Howl({
-    src: ["/sounds/glug-a.mp3"],
+    src: ["./sounds/glug-a.mp3"],
     rate: playbackRate,
     volume: 0.5,
   });
@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
       </Fade>
       <img
-        src="/footer-curve.svg"
+        src="./footer-curve.svg"
         className="w-full rotate-180"
         alt=""
         loading="eager"

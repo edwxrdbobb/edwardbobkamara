@@ -33,7 +33,7 @@ const Work = ({ clientWidth }) => {
   };
 
   const checkedSound = new Howl({
-    src: ["/sounds/pop-down.mp3"],
+    src: ["./sounds/pop-down.mp3"],
     volume: 0.7,
   });
 
@@ -144,7 +144,7 @@ const Work = ({ clientWidth }) => {
       ref={targetSection}
     >
       <img
-        src="/left-pattern.svg"
+        src="./left-pattern.svg"
         className="absolute hidden left-0 -top-1/4 w-1/12 max-w-xs md:block"
         loading="lazy"
         height={700}
@@ -172,34 +172,34 @@ const Work = ({ clientWidth }) => {
           <ul className="-mb-8">
             {WORK.map((work, index) => (
                    <li key={index}>
-                   <div class="relative pb-8">
-                     <span class="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200" aria-hidden="true"></span>
-                     <div class="relative flex items-start space-x-3">
+                   <div className="relative pb-8">
+                     <span className="absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200" aria-hidden="true"></span>
+                     <div className="relative flex items-start space-x-3">
                        <div>
-                         <div class="relative px-1">
-                           <div class="h-8 w-8 bg-blue-500 rounded-full ring-8 ring-white flex items-center justify-center">
-                             <svg class="text-white h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                         <div className="relative px-1">
+                           <div className="h-8 w-8 bg-blue-500 rounded-full ring-8 ring-white flex items-center justify-center">
+                             <svg className="text-white h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                stroke="currentColor">
-                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                  d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                              </svg>
                            </div>
                          </div>
                        </div>
-                       <div class="min-w-0 flex-1 py-0">
-                         <div class="text-md text-gray-500">
+                       <div className="min-w-0 flex-1 py-0">
+                         <div className="text-md text-gray-500">
                            <div>
-                             <a href="#" class="font-medium text-gray-900 mr-2">{work.company}</a>
+                             <a href="#" className="font-medium text-gray-900 mr-2">{work.company}</a>
          
                              <a href="#"
-                               class="my-0.5 relative inline-flex items-center rounded-full border border-gray-300 px-3 py-0.5 text-sm">
+                               className="my-0.5 relative inline-flex items-center rounded-full border border-gray-300 px-3 py-0.5 text-sm">
                             
-                               <div class="ml-3.5 font-medium text-gray-900">{work.title}</div>
+                               <div className="ml-3.5 font-medium text-gray-900">{work.title}</div>
                              </a>
                            </div>
-                           <span class="whitespace-nowrap text-sm text-indigi-800">{work.range}</span>
+                           <span className="whitespace-nowrap text-sm text-indigi-800">{work.range}</span>
                          </div>
-                         <div class="mt-2 text-gray-700">
+                         <div className="mt-2 text-gray-700">
                          <p>
                           {work.responsibilities.map((detail, detailIndex) => (
                             <span key={detailIndex}>

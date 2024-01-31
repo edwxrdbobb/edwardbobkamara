@@ -9,7 +9,7 @@ const Header = ({ children }) => {
       <Fade>
         <div className="flex justify-between section-container">
           <a href="#home" className="link">
-           <span style="font-weight:bold;">EBK</span>
+           <span style={{fontWeight:'bold'}}>EBK</span>
           </a>
           <div className="outer-menu relative">
             <SoundBar />

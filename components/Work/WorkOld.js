@@ -33,7 +33,7 @@ const Work = ({ clientWidth }) => {
   };
 
   const checkedSound = new Howl({
-    src: ["/sounds/pop-down.mp3"],
+    src: ["./sounds/pop-down.mp3"],
     volume: 0.7,
   });
 
@@ -144,7 +144,7 @@ const Work = ({ clientWidth }) => {
       ref={targetSection}
     >
       <img
-        src="/left-pattern.svg"
+        src="./left-pattern.svg"
         className="absolute hidden left-0 -top-1/4 w-1/12 max-w-xs md:block"
         loading="lazy"
         height={700}

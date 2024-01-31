@@ -165,8 +165,8 @@
     left: 16px;
     fill: none;
     stroke: var(--trails);
-    stroke-linecap: round;
-    stroke-width: 2;
+    strokeLinecap: round;
+    strokeWidth: 2;
     stroke-dasharray: 57px;
     stroke-dashoffset: calc(var(--trails-stroke) * 1px);
     transform: rotate(68deg) translateZ(0);
@@ -192,9 +192,9 @@
         height: 16px;
         margin: 4px 8px 0 0;
         fill: none;
-        stroke-width: 2;
-        stroke-linecap: round;
-        stroke-linejoin: round;
+        strokeWidth: 2;
+        strokeLinecap: round;
+        strokeLinejoin: round;
         stroke-dasharray: 14px;
         stroke: var(--success);
         stroke-dashoffset: calc(var(--success-stroke) * 1px);

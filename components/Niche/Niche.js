@@ -10,8 +10,8 @@ const Niche = () => {
     <p className="mb-12 text-lg text-gray-500">Here is a few of the awesome Services we provide.</p> */}
     <div className="w-full">
         <div className="flex flex-col flex-wrap w-full mb-10 sm:flex-row">
-        {NICHE.map((niche) => (
-            <div className="w-full mb-10 sm:mb-6 sm:w-1/2">
+        {NICHE.map((niche, index) => (
+            <div className="w-full mb-10 sm:mb-6 sm:w-1/2" key={index}>
                 <div className="relative h-full ml-0 mr-0 sm:mr-10">
                     <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg"></span>
                     <div className="relative h-full p-5 border-2 border-indigo-500 rounded-lg">

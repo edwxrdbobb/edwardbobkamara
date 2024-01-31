@@ -194,7 +194,7 @@ export const PROJECTS = [
     description: "Client Ecommerce website",
     gradient: ["#0133e8", "#0029b3"],
     url: "https://leonegadgets.com/",
-    tech: ["Wordpress", "PHP"],
+    tech: ["wordpress", "php"],
   },
   {
     name: "Kizuri International",
@@ -203,7 +203,7 @@ export const PROJECTS = [
     description: "Consultancy Website for a client",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "http://kizuri-international.com/",
-    tech: ["Wordpress", "PHP"],
+    tech: ["wordpress", "php"],
   },
   {
     name: "Centurion Engineering",
@@ -213,7 +213,7 @@ export const PROJECTS = [
       "Engineering & Construction website for client",
     gradient: ["#F14658", "#DC2537"],
     url: "http://centurion.sl/",
-    tech: ["Wordpress", "PHP"],
+    tech: ["wordpress", "php"],
   },
   {
     name: "Sophie Ndong",
@@ -222,7 +222,7 @@ export const PROJECTS = [
     description: "Portfolio website for a gospel artist",
     gradient: ["#142D46", "#2E4964"],
     url: "https://sophiendong.org/",
-    tech: ["react"],
+    tech: ["wordpress", "php"],
   },
     {
     name: " BBoxx SL Ltd",
@@ -232,7 +232,7 @@ export const PROJECTS = [
       "Solar company in Africa",
     gradient: ["#FFCF1B", "#FF881B"],
     url: "https://bboxx.sl/",
-    tech: ["wordpress", "PHP"],
+    tech: ["wordpress", "php"],
   },
 ];
 
