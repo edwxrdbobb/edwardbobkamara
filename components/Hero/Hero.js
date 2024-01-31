@@ -100,8 +100,8 @@ const Hero = () => {
           <Profiles />
         </div>
         <div className="seq pt-4">
-          <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary">
-            Let&apos;s Talk
+          <Button href="https://app.enhancv.com/share/3b92d21a/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" classes="link" type="primary" target="_blank">
+            Download CV
           </Button>
         </div>
       </div>

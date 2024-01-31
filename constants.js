@@ -90,7 +90,7 @@ export const PERSONAL_PROJECTS = [
 
 
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Developer",
+  "A Software Engineering Student from Sierra Leone",
   "I build things for the web",
   "I create aesthetic and modern apps",
 ];

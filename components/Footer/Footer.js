@@ -51,11 +51,12 @@ const Footer = () => {
             </div>
             <div className="seq pt-4 text-center">
               <Button
-                href={`#${MENULINKS[4].ref}`}
+                href="https://app.enhancv.com/share/3b92d21a/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic"
                 classes="link"
                 type="secondary"
+                target="_blank"
               >
-                Let&apos;s Talk
+               Download CV
               </Button>
             </div>
             <p className="text-center text-white text-sm sm:text-base font-medium tracking-wide mt-8">
