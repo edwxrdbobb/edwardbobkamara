@@ -1,11 +1,11 @@
 const withPWA = require("next-pwa");
 
 const isProd = process.env.NODE_ENV === "production";
-// const basePath = isProd ? '/edwardbobkamara' : '';
+const basePath = isProd ? '/edwardbobkamara' : '';
 
 const nextConfig = {
-  // basePath,
-  // assetPrefix: basePath,
+  basePath,
+  assetPrefix: basePath,
   pwa: {
     dest: "public",
     register: true,
