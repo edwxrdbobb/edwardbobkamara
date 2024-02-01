@@ -18,7 +18,7 @@ const Skills = () => {
 
     ScrollTrigger.create({
       trigger: targetSection.current.querySelector(".skills-wrapper"),
-      start: "100px bottom",
+      start: "150px bottom",
       end: `center center`,
       animation: revealTl,
       scrub: 0,

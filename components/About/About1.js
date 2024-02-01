@@ -68,17 +68,17 @@ const About1 = ({ clientHeight }) => {
       >
         <h1
           ref={quoteRef}
-          className="font-medium text-[1.50rem] md:text-[1.70rem] lg:text-[2rem] text-center"
+          className=" text-[.50rem] md:text-[.70rem] lg:text-[1.5rem] text-center"
         >
           <span className="about-1 leading-tight">
-          Hey there, I'm Edward Bob Kamara, a dedicated Software Engineering student with over 5 years of hands-on expertise in crafting immersive websites and mobile applications. Proficient in an array of technologies, I specialize in Javascript (React, React Native, Expo, Nextjs, Nodejs, Expressjs, Typescript, Threejs), PHP, Python, and adeptly manage databases like MySQL & MongoDB..{" "}
+          Hey there, I'm Edward Bob Kamara, a dedicated Software Engineering student with over 5 years of hands-on expertise in crafting immersive websites and mobile applications.{" "}
           </span>
           <span className="about-2 leading-tight">
-          My journey in the tech realm expands beyond code. I bring a versatile background that includes Digital Art, Graphics Design, Video Editing, and Audio Engineering. However, my true passion lies in weaving code to create robust, user-centric solutions.{" "}
+          My journey in the tech realm expands beyond code. However, my true passion lies in weaving code to create robust, user-centric solutions.{" "}
           </span>
 
           <span className="about-3 leading-tight">
-          Currently pursuing a Software Engineering degree at Limkokwing University, I leverage my academic insights in tandem with real-world experience. As showcased in my personal projects like Beezee Makit, Osbook, and Bobble, I seamlessly blend technologies such as React, Nodejs, and MongoDB to deliver impactful solutions. {" "}
+          Currently pursuing a Software Engineering degree at Limkokwing University, I leverage my academic insights in tandem with real-world experience. {" "}
           </span>
         </h1>
       </div>
