@@ -68,7 +68,7 @@ const About1 = ({ clientHeight }) => {
       >
         <h1
           ref={quoteRef}
-          className=" text-[.50rem] md:text-[.70rem] lg:text-[1.5rem] text-center"
+          className=" text-[1.50rem] md:text-[.70rem] lg:text-[1.5rem] text-center"
         >
           <span className="about-1 leading-tight">
           Hey there, I'm Edward Bob Kamara, a dedicated Software Engineering student with over 5 years of hands-on expertise in crafting immersive websites and mobile applications.{" "}
